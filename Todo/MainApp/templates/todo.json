@@ -1,0 +1,8 @@
+{
+  "RenderType": "QueriedEntry",
+  "key": "{{ todo.primaryKey }}",
+  "Title": "{{ todo.title }}",
+  "Description": "{{ todo.description }}",
+  "Date": "{{ todo.dateModified}}",
+  "ID": "{{ todo.primaryKey }}",
+}
