@@ -8,7 +8,7 @@
       "Description": "{{ todo.description }}",
       "Date": "{{ todo.dateModified}}",
       "ID": "{{ todo.primaryKey }}",
-    }
+    } {% if not forloop.last %},{% endif %}
     {% endfor %}
 
   ]
